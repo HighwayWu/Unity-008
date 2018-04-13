@@ -1,0 +1,10 @@
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Server\bin\Debug\Server.exe.config
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Server\bin\Debug\Server.exe
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Server\bin\Debug\Server.pdb
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Server\bin\Debug\Common.dll
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Server\bin\Debug\MySql.Data.dll
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Server\bin\Debug\Common.pdb
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Server\bin\Debug\MySql.Data.xml
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Server\obj\Debug\Server.exe
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Server\obj\Debug\Server.pdb

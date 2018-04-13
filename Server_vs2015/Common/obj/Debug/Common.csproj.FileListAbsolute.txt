@@ -1,0 +1,5 @@
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Common\bin\Debug\Common.dll
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Common\bin\Debug\Common.pdb
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Common\obj\Debug\Common.dll
+C:\Users\whw\Documents\Visual Studio 2015\Projects\JungleWars\Common\obj\Debug\Common.pdb
