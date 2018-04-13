@@ -10,23 +10,23 @@
 
 服务器端:
 
-Common(同客户端共用统一一套code来区别消息的传递):
+	Common(同客户端共用统一一套code来区别消息的传递):
 
-	RequestCode: 来区别request要交给哪个controller处理 如RoomController处理关于创建房间 GameController处理关于人物角色
+		RequestCode: 来区别request要交给哪个controller处理 如RoomController处理关于创建房间 GameController处理关于人物角色
 
-	ActionCode: controller进行具体的处理方式 如room之中可选择create join update quit等
+		ActionCode: controller进行具体的处理方式 如room之中可选择create join update quit等
 	
-Server:
+	Server:
 
-	Model: 保存了数据库中表的结构
+		Model: 保存了数据库中表的结构
 	
-	DAO: 提供MySqlConnection之后可以从数据库中获取数据
+		DAO: 提供MySqlConnection之后可以从数据库中获取数据
 	
-	Controller: 对服务器端、客户端之间传递的消息进行处理
+		Controller: 对服务器端、客户端之间传递的消息进行处理
 	
-	Server: 创建serverSocket 用于接收客户端传递的消息 并将消息传递给controller进行处理 处理完成后将结果传递给client
+		Server: 创建serverSocket 用于接收客户端传递的消息 并将消息传递给controller进行处理 处理完成后将结果传递给client
 	
-	Client: 创建clientSocket 用于接收serverSocket的消息 并将其传递给客户端
+		Client: 创建clientSocket 用于接收serverSocket的消息 并将其传递给客户端
 	
 客户端:
 
@@ -36,7 +36,7 @@ Server:
 	
 	RequestManager: 根据不同的actionCode处理消息 或者根据不同的情况发送带有actionCode的消息给gameFacade
 	
-	其余...Manager: 基本上就是根据其名字对响应模块进行处理
+	其余...Manager: 基本上就是根据其名字对相应模块进行处理
 
 画了个大致的结构图:
 
@@ -60,7 +60,7 @@ Server:
 
 ![image](https://github.com/HighwayWu/Unity-008/raw/master/Screenshots/图片4.png)
 
-另外提一句。。DOTween做各个按钮、界面的出现、消失等动画是真的方便 想改参数在代码里面直接就能改 不用再去动画界面了
+另外提一句。。DOTween做各个按钮、界面的出现、消失等动画是真的方便 想改参数在代码里面直接就能改 不用再去动画界面鼓捣了
 
 数据库的两个表 user(用户名密码)跟result(保存战绩)
 
